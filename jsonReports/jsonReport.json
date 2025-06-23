@@ -85,12 +85,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 11599,
+                  "duration": 17972,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-20T10:58:39.300Z",
+                  "startTime": "2025-06-23T05:32:39.430Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -102,6 +102,11 @@
                       "name": "video",
                       "contentType": "video/webm",
                       "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Login-Test---s-de699-te-to-dashboard-after-login\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Login-Test---s-de699-te-to-dashboard-after-login\\trace.zip"
                     }
                   ]
                 }
@@ -113,285 +118,15 @@
           "file": "tests/login.spec.ts",
           "line": 12,
           "column": 5
-        },
-        {
-          "title": "Dashboard Test - should display YOUR DASHBOARD heading",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 8808,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-20T10:58:51.260Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Dashboard-Test-d9c20-play-YOUR-DASHBOARD-heading\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Dashboard-Test-d9c20-play-YOUR-DASHBOARD-heading\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b6dc33e290e5a0a43b1-09c83295580127d23e04",
-          "file": "tests/login.spec.ts",
-          "line": 26,
-          "column": 5
-        },
-        {
-          "title": "My Builders Test - should display Builders heading",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 12190,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-20T10:59:00.091Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-My-Builders-Te-9af22-ld-display-Builders-heading\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-My-Builders-Te-9af22-ld-display-Builders-heading\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b6dc33e290e5a0a43b1-d8f56e193213d6a6d5cd",
-          "file": "tests/login.spec.ts",
-          "line": 42,
-          "column": 5
-        },
-        {
-          "title": "Contacts Test - should display CONTACTS heading",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 10290,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-20T10:59:12.310Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Contacts-Test---should-display-CONTACTS-heading\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Contacts-Test---should-display-CONTACTS-heading\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b6dc33e290e5a0a43b1-0d30353634185f9403bf",
-          "file": "tests/login.spec.ts",
-          "line": 56,
-          "column": 5
-        },
-        {
-          "title": "Projects Test - should display PROJECTS heading",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 11613,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-20T10:59:22.622Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Projects-Test---should-display-PROJECTS-heading\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Projects-Test---should-display-PROJECTS-heading\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b6dc33e290e5a0a43b1-7c7eb94acd3f509b1b5a",
-          "file": "tests/login.spec.ts",
-          "line": 70,
-          "column": 5
-        },
-        {
-          "title": "Leads Test - should display LEADS heading",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 12110,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-20T10:59:34.249Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Leads-Test---should-display-LEADS-heading\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Leads-Test---should-display-LEADS-heading\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b6dc33e290e5a0a43b1-0cb9d267c4295a9676f5",
-          "file": "tests/login.spec.ts",
-          "line": 84,
-          "column": 5
-        },
-        {
-          "title": "Documents Upload Test - should display KYC DOCUMENTS heading",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 12539,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-20T10:59:46.371Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Documents-Uplo-0638f-splay-KYC-DOCUMENTS-heading\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Documents-Uplo-0638f-splay-KYC-DOCUMENTS-heading\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "6b6dc33e290e5a0a43b1-ee7b33ec32ad826aa0ee",
-          "file": "tests/login.spec.ts",
-          "line": 98,
-          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-20T10:58:38.269Z",
-    "duration": 81147.693,
-    "expected": 7,
+    "startTime": "2025-06-23T05:32:37.412Z",
+    "duration": 22431.394,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

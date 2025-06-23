@@ -1,5 +1,9 @@
-import { test, expect } from '@playwright/test';
+import { defineConfig } from "@playwright/test";
 
-test('test', async ({ page }) => {
-
+export default defineConfig({
+  workers: 4,
+  use: {
+    headless: true,
+    viewport: { width: 1280, height: 720 },
+  },
 });
