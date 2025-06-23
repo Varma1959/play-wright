@@ -1,0 +1,29 @@
+{
+  "baseUrl": "https://dev.realtor.works",
+  "userDetails": {
+    "agents": {
+      "agent1": {
+        "mobileNumber": "9177123888",
+        "password": "test"
+      },
+      "agent2": {
+        "mobileNumber": "9177771623",
+        "password": "test"
+      }
+    },
+    "builders": {
+      "builder1": {
+        "mobileNumber": "9949177888",
+        "password": "test"
+      },
+      "builder2": {
+        "mobileNumber": "4534232121",
+        "password": "test"
+      }
+    },
+    "superAdmin": {
+        "mobileNumber": "8297074155",
+        "password": "test"
+    }
+  }
+}

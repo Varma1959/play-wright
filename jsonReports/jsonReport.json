@@ -50,27 +50,27 @@
         "testDir": "C:/Users/varma/OneDrive/Desktop/Training_PlayWright/play-wright",
         "testIgnore": [],
         "testMatch": [
-          "tests/login.spec.ts"
+          "tests/*.spec.ts"
         ],
         "timeout": 30000
       }
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "patch",
+    "updateSourceMethod": "3way",
     "version": "1.53.1",
     "workers": 4,
     "webServer": null
   },
   "suites": [
     {
-      "title": "tests\\login.spec.ts",
-      "file": "tests/login.spec.ts",
+      "title": "tests\\adminLogin.spec.ts",
+      "file": "tests/adminLogin.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Login Test - should navigate to dashboard after login",
+          "title": "Login as Super Admin",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,31 +82,26 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 5,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 17972,
+                  "duration": 7001,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-23T05:32:39.430Z",
+                  "startTime": "2025-06-23T08:04:24.944Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Login-Test---s-de699-te-to-dashboard-after-login\\test-finished-1.png"
+                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-adminLogin-Login-as-Super-Admin\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Login-Test---s-de699-te-to-dashboard-after-login\\video.webm"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-login-Login-Test---s-de699-te-to-dashboard-after-login\\trace.zip"
+                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-adminLogin-Login-as-Super-Admin\\video.webm"
                     }
                   ]
                 }
@@ -114,9 +109,9 @@
               "status": "expected"
             }
           ],
-          "id": "6b6dc33e290e5a0a43b1-8adbaa33adad3ca5fa2c",
-          "file": "tests/login.spec.ts",
-          "line": 12,
+          "id": "8afc96d6a160188fd01e-926b39ddc633b02fc3d3",
+          "file": "tests/adminLogin.spec.ts",
+          "line": 6,
           "column": 5
         }
       ]
@@ -124,8 +119,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-23T05:32:37.412Z",
-    "duration": 22431.394,
+    "startTime": "2025-06-23T08:04:23.448Z",
+    "duration": 8725.290999999968,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
