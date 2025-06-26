@@ -3,7 +3,7 @@ import { PlaywrightTestConfig } from "@playwright/test";
 const config: PlaywrightTestConfig = {
   testMatch: ["tests/*.spec.ts"],
   use: {
-    // headless: false,
+    headless: false,
     screenshot: "on",
     video: "on",
   },

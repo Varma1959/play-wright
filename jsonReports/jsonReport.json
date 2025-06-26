@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "tests\\adminLogin.spec.ts",
-      "file": "tests/adminLogin.spec.ts",
+      "title": "tests\\agentRegistrationIndividual.spec.ts",
+      "file": "tests/agentRegistrationIndividual.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Login as Super Admin",
+          "title": "Register using JSON data without loops",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,26 +82,30 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 5,
+                  "workerIndex": 9,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7001,
+                  "duration": 5358,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "firstNameField.name: Please Enter First Name\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-06-23T08:04:24.944Z",
+                  "startTime": "2025-06-26T06:56:37.977Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-adminLogin-Login-as-Super-Admin\\test-finished-1.png"
+                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-agentRegistrationInd-8ff4f-ing-JSON-data-without-loops\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-adminLogin-Login-as-Super-Admin\\video.webm"
+                      "path": "C:\\Users\\varma\\OneDrive\\Desktop\\Training_PlayWright\\play-wright\\test-results\\tests-agentRegistrationInd-8ff4f-ing-JSON-data-without-loops\\video.webm"
                     }
                   ]
                 }
@@ -109,9 +113,9 @@
               "status": "expected"
             }
           ],
-          "id": "8afc96d6a160188fd01e-926b39ddc633b02fc3d3",
-          "file": "tests/adminLogin.spec.ts",
-          "line": 6,
+          "id": "1ee87617c2686ad5b110-f8eee3b0795fd9e99ab7",
+          "file": "tests/agentRegistrationIndividual.spec.ts",
+          "line": 34,
           "column": 5
         }
       ]
@@ -119,8 +123,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-23T08:04:23.448Z",
-    "duration": 8725.290999999968,
+    "startTime": "2025-06-26T06:56:36.290Z",
+    "duration": 8144.757999999449,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

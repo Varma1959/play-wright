@@ -1,5 +1,12 @@
 {
   "baseUrl": "https://dev.realtor.works",
+
+  "fields": [
+    { "name": "Enter Mobile Number", "type": "placeholder" },
+    { "name": "Enter Password", "type": "placeholder" },
+    { "name": "Log In", "type": "submit" }
+  ],
+
   "userDetails": {
     "agents": {
       "agent1": {
@@ -22,8 +29,8 @@
       }
     },
     "superAdmin": {
-        "mobileNumber": "8297074155",
-        "password": "test"
+      "mobileNumber": "8297074155",
+      "password": "test"
     }
   }
 }
