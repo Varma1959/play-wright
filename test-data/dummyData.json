@@ -1,0 +1,35 @@
+{
+  "baseUrl": "https://dev.realtor.works/register",
+  "fields": [
+    {
+      "name": "Please Enter First Name",
+      "value": "Varma",
+      "type": "placeholder"
+    },
+    {
+      "name": "Please Enter Last Name",
+      "value": "Pothuri",
+      "type": "xpath",
+      "selector": "//input[@id='lastName']"
+    },
+    {
+      "name": "Please Enter Mobile Number",
+      "value": "900002231113",
+      "type": "placeholder"
+    },
+    { "name": "Please Enter Password", "value": "test", "type": "placeholder" },
+    {
+      "name": "Please Enter Confirm Password",
+      "value": "test",
+      "type": "css",
+      "selector": "[name=\"confirmPassword\"]"
+    },
+    { "name": "Sign Up", "type": "submit" }
+  ],
+  "validations": [
+    {
+      "selector": ".invalid-feedback",
+      "expectedText": "Please enter a valid 10-digit mobile number."
+    }
+  ]
+}
